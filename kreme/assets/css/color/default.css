@@ -1,0 +1,161 @@
+/* 
+==========================================================================
+
+Author: mTheme
+
+Content Tabel
++---------------+
+
+- General Classes
+- Elements
+- Common-Stuff
+
+- Featured color: #adc32b
+- Secondary Color: 
+========================================================================== */
+
+/* Color */
+body{
+	color: #666666;
+}
+.header-top{
+	color: #999999;
+}
+ul.navbar-nav a,
+.section-welcome .section-content i,
+.entry-title,
+.section-title,
+.cats-list .cat-title,
+.countdown-items,
+.hot-detail .entry-thumbnail fieldset a{
+	color: #000;
+}
+.header-top .phone .fa,
+.header .cart-icon .cart-count,
+.section-welcome .section-content figure .more,
+.section-products .section-header .section-title,
+ .testimonial .entry-body,
+ .section-custom{
+	color: #FFF;
+}
+ .flickity-prev-next-button:hover .arrow{
+	fill: #FFF;
+}
+.section-products .section-header .section-subtitle,
+.cat-detail{
+	color: #f4f4f4;
+}
+.testimonial .entry-content:after{
+	color: #716f68;
+}
+.flickity-prev-next-button .arrow{
+	fill: #959595;
+}
+.hot-detail .entry-subtitle span{
+	color: #ee4e1a;
+}
+.f-color,
+.header a:hover,
+ul.navbar-nav a:hover,
+ul.navbar-nav li:hover > a,
+ul.navbar-nav li.active > a,
+.nutrition-philosophy-items  .nutrition-philosophy-item:hover .entry-title a,
+.testimonial .entry-skill,
+.buttons .button{
+	color: #adc32b;
+}
+
+
+/* Background */
+.header-top-right .widget + .widget:after,
+.header-top ul.menu > li + li:after{
+	background-color: #d3d3d3;
+}
+.section-testimonials:before,
+.section-custom .section-inner:after{
+	background-color: #000;
+}
+.flickity-prev-next-button{
+	background-color: #ebebeb;
+}
+.buttons .button,
+.testimonials-slider .flickity-page-dots .dot,
+.countdown-items,
+.hot-detail .entry-thumbnail fieldset a,
+.countdown:after{
+	background-color: #FFF;
+}
+.section-products{
+	background-color: #f9f9f9;
+}
+.bg-f-color,
+.header-top .phone .fa,
+.header .cart-icon .cart-count,
+.section-welcome .section-content figure .more,
+.section-bg .section-inner:after,
+.nutrition-philosophy-items .entry-thumbnail .np-icon,
+.testimonial .entry-title:after,
+.testimonials-slider .flickity-page-dots .dot.is-selected,
+.why-choose-us ul .entry-thumbnail,
+.flickity-prev-next-button:hover,
+.section-custom:before{
+	background-color: #adc32b;
+}
+
+
+/* Border */
+.section-products .section-header:after,
+.section-products .section-header:before{
+	border-color: #fff;
+}
+.section-header:before,
+.section-clients-logo,
+.countdown-items .countdown-item + .countdown-item{
+	border-color: #ebebeb;
+}
+.nutrition-philosophy-items .box-image:after{
+	border-color: #e1e1e1;
+}
+.welcome-info:after,
+.section-header:after,
+.why-choose-us ul li + li .entry-thumbnail:after{
+	border-color: #adc32b;
+}
+
+
+/* Fill */
+
+
+
+/* Font */
+body{
+	font-family: 'Kameron', serif;
+}
+.section-title,
+.title,
+.entry-title,
+#primary-navigation,
+.section-welcome .section-content figure .more,
+.buttons .button,
+.cats-list .cat-title,
+.hot-detail .entry-subtitle span,
+.countdown-items .countdown-item .f-color,
+.hot-detail .entry-thumbnail fieldset a{
+	font-family: 'Dosis', sans-serif;
+}
+
+/* Clearings */
+.welcome-info .welcome-info-item:after,
+.welcome-info .welcome-info-item:before,
+.why-choose-us ul li:before,
+.why-choose-us ul li:after,
+.countdown-items:before,
+.countdown-items:after{
+	content: "";
+	display: table;
+}
+.welcome-info .welcome-info-item:after,
+.why-choose-us ul li:after,
+.countdown-items:after{
+	clear: both;
+}

@@ -1,0 +1,62 @@
+
+a{
+	outline: 0 !important;
+}
+img{
+	max-width: 100%;
+}
+/* Main Content */
+.section{
+	padding: 90px 0 80px;
+}
+
+figure.item-image{
+	position: relative;	
+}
+figure.item-image figcaption,
+figure.item-image figcaption a.link{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.section.women-product{
+	padding-bottom: 0;
+}
+.tabs-products .nav-tabs{
+	border: 0;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.tabs-products .nav-tabs > li{
+	margin: 0;
+	padding: 0 20px 10px;
+	float: none;
+	display: inline-block;
+	position: relative;
+	font-weight: bold;
+}
+.tabs-products .nav-tabs > li:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 50px;
+	height: 2px;
+	margin-left: -25px;
+	opacity: 0;
+}
+.tabs-products .nav-tabs > li.active:after{
+	opacity: 1;
+}
+.tabs-products .nav-tabs > li > a{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: inherit !important;
+	background-color: transparent !important;
+	display: block;
+	border: 0 !important;
+}

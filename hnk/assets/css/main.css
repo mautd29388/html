@@ -1,0 +1,393 @@
+/* ==========================================================================
+
+Author: mTheme
+Author URI: http://themeforest.net/user/mtheme_market
+Version: 1.0
+
+
+Content Tabel
++---------------+
+
+* body
+	+ Header / #header
+	+ Main Content / #main-content
+	+ Footer / #footer
+
+========================================================================== */
+
+
+body{
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+input[type="submit"], button[type="submit"], .button{
+    background-image: none;
+    border: medium none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px;
+    white-space: nowrap;
+}
+a:hover,
+a:focus{
+	text-decoration: none !important;	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	margin-bottom: 20px;
+}
+/* HEADER */
+.header{
+	position: relative;
+}
+.header-top{
+	line-height: 37px;
+}
+.header-top .fa{
+	margin-right: 5px;
+}
+.header-top .nav{
+	text-align: right;
+}
+.header-top .nav > li{
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+.header-top .nav > li:FIRST-CHILD{
+	padding: 0;
+}
+.header-top .nav > li > a{
+	padding: 0;
+	color: inherit;
+	display: block;
+	background-color: transparent !important;
+}
+
+.header-middle{
+	padding: 20px 0;	
+}
+.header-middle .header-widgets{
+	display: table;
+	margin-top: 7px;
+}
+.header-middle .header-widgets .widget{
+	display: table-cell;
+	padding: 0 40px;
+	border-left: 1px solid; 
+}
+.header-middle .header-widgets .widget:FIRST-CHILD{
+	padding-left: 0px;
+	border-left: 0; 
+}
+.header-middle .header-widgets .widget:last-child{
+	padding-right: 0;
+}
+.header-widgets .widget .info-icon i{
+    font-size: 32px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.header-widgets .widget .info-icon .content {
+    display: inline-block;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+#primary-navigation {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    margin: 0;
+    line-height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 9;
+    
+    background: -webkit-linear-gradient(to top, transparent 0, rgba(0, 0, 0, 0.5) 100%) repeat-x;
+  	background: -moz-linear-gradient(to top, transparent 0, rgba(0, 0, 0, 0.5) 100%) repeat-x;
+  	background: -o-linear-gradient(to top, transparent 0, rgba(0, 0, 0, 0.5) 100%) repeat-x;
+  	background: linear-gradient(to top, transparent 0, rgba(0, 0, 0, 0.5) 100%) repeat-x;
+}
+#primary-navigation .navbar-nav > li.home > a{
+    margin-right: 15px;
+    padding: 0 35px;
+    text-indent: -9999px;
+    border-right: 1px solid;
+}
+#primary-navigation .navbar-nav > li.home > a:before {
+  font-family: "simple-line-icons";
+  content: "\e069";
+  text-indent: 0;
+  position: absolute;
+  left: 0;
+  font-size: 32px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  text-align: left;
+  line-height: 80px;
+}
+#primary-navigation .navbar-nav > li > a{
+	line-height: inherit;
+}
+#primary-navigation .navbar-nav > li a {
+    font-size: 16px;
+    font-weight: 500;
+	display: block;
+    padding: 0 20px;
+    background-color: transparent !important;
+}
+#primary-navigation .social-links {
+    float: right;
+    margin: 25px 0 0;
+    padding: 0;
+    list-style: none;
+}
+#primary-navigation .social-links li{
+	float: left;
+}
+#primary-navigation .social-links a {
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    border-radius: 2px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+    text-align: center;
+    width: 32px;
+    font-size: 18px;
+    display: block;
+}
+#primary-navigation .menu-extra{
+    border-left: 1px solid;
+    float: right;
+    font-size: 24px;
+    list-style: outside none none;
+    margin: 0 0 0 30px;
+    padding: 0 0 0 30px;
+}
+#primary-navigation .menu-extra a{
+	display: block;
+}
+
+#banner{
+	position: relative;
+}
+.nivo-controlNav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 9;
+}
+.nivo-controlNav a{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 5px;
+	text-indent: -9999px;
+	border: 2px solid;
+}
+
+
+/* ========================================
+=============== Main Content ==============
+======================================== */
+
+h1.divider,
+h2.divider,
+h3.divider,
+h4.divider,
+h5.divider,
+h6.divider {
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: 40px;
+}
+h1.divider:before,
+h2.divider:before,
+h3.divider:before,
+h4.divider:before,
+h5.divider:before,
+h6.divider:before {
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+  height: 2px;
+  left: 50px;
+  right: 0;
+  position: absolute;
+  bottom: -12px;
+}
+h1.divider:after,
+h2.divider:after,
+h3.divider:after,
+h4.divider:after,
+h5.divider:after,
+h6.divider:after {
+  content: "";
+  height: 2px;
+  left: 0;
+  width: 40px;
+  position: absolute;
+  bottom: -12px;
+}
+
+/* Services */
+.box-services{
+	  padding: 20px;
+	  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.box-services h3.divider{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.services-item .box-image {
+    position: relative;
+}
+.services-item .box-image .box-header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.7) 100%) repeat-x;
+  background: -moz-linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.7) 100%) repeat-x;
+  background: -o-linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.7) 100%) repeat-x;
+  background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, 0.7) 100%) repeat-x;
+}
+.services-item .box-image > a {
+    display: block;
+}
+.services-item .box-image .box-header .box-title{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+.services-item .box-image .box-header .box-title a {
+    padding: 20px;
+    display: block;
+}
+.box-content{
+	padding: 20px;
+}
+
+/* Projects */
+.projects-wrap{
+	border-width: 0 0 1px;
+	border-style: solid;
+}
+.projects .projects-filter ul {
+  padding: 0;
+  position: relative;
+  top: -20px;
+  padding-left: 1000px;
+  padding-right: 1000px;
+  margin: 0 -1000px;
+  margin-bottom: 10px;
+  display: inline-block;
+  z-index: 9;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.projects .projects-filter ul::after {
+    border-bottom: 20px solid;
+    border-right: 20px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 970px;
+    top: -15px;
+    width: 100%;
+    z-index: -1;
+}
+.projects .projects-filter ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.projects .projects-filter ul li a {
+    border-bottom: 2px solid transparent;
+    display: block;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 0 0 15px;
+}
+.projects .project{
+	margin-bottom: 30px;
+}
+.projects .project-wrap{
+	position: relative;
+}
+.projects .project-wrap .project-thumbnail > a{
+	display: block;
+}
+.projects .project-info{
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+}
+.projects .project-buttons a{
+    background: transparent;
+    border: 2px solid;
+    bottom: 20px;
+    height: 40px;
+    left: 20px;
+    line-height: 36px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: 130px;
+}
+.projects .project-wrap .project-info .project-title {
+    font-size: 18px;
+    margin: 0;
+}
+.projects .project-wrap .project-info .project-categories {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.projects .project-wrap .project-info .project-categories li {
+    display: inline-block;
+}
+.projects .project-wrap .project-info .project-categories li + li {
+	margin-left: 10px;
+}
+.projects .project-wrap:hover .project-thumbnail .project-buttons a {
+    opacity: 1;
+    visibility: visible;
+}
+.projects .project-wrap:hover img {
+    opacity: 0.3;
+}
+.projects .project-wrap:hover .project-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.architecture-services{
+	padding: 50px 0 20px;
+}
+.architecture-services .architecture-services-title{
+	font-size: 24px;
+	margin: 30px 0 20px;
+}

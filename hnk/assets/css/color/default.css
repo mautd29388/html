@@ -1,0 +1,108 @@
+/* ==========================================================================
+
+Author: mTheme
+Author URI: http://themeforest.net/user/mtheme_market
+Version: 1.0
+
+
+Content Tabel
++---------------+
+
++ Background Color
++ Text Color
++ Border Color
++ Font Family
+
+========================================================================== */
+
+/* Background Color */
+.header-top,
+input[type="submit"], button[type="submit"], .button,
+#primary-navigation .social-links a:hover,
+h1.divider:after,
+h2.divider:after,
+h3.divider:after,
+h4.divider:after,
+h5.divider:after,
+h6.divider:after{
+	background-color: #00bac9;
+}
+#primary-navigation{
+	/*background-color: #333;*/
+}
+.nivo-controlNav a.active,
+.nivo-controlNav a:hover,
+.services-item,
+.projects .projects-filter ul{
+	background-color: #FFF;
+}
+.services-item .box-image > a,
+.services-item .box-image,
+.projects .project-wrap .project-thumbnail > a{
+	background-color: #000;
+}
+
+/* Text Color */
+body{
+	color: #777;
+}
+.header-top,
+input[type="submit"], button[type="submit"], .button,
+#primary-navigation .navbar-nav > li a,
+.services-item .box-image .box-header,
+.services-item .box-image .box-header .box-title a,
+.projects .project-wrap .project-info .project-title a,
+.projects .project-buttons a{
+	color: #FFF;
+}
+.header-top .nav > li > a:hover,
+.header-widgets .widget .info-icon .content span,
+#primary-navigation .social-links a,
+h1, h2, h3, h4, h5, h6,
+.projects .projects-filter ul li.active a{
+	color: #333;
+}
+.projects .project-wrap .project-info .project-categories li a{
+	color: #ccc;
+}
+.projects .projects-filter ul li a{
+	color: #999;
+}
+.header-widgets .widget .info-icon i,
+#primary-navigation .navbar-nav > li a:hover,
+#primary-navigation .navbar-nav > li.active a,
+.projects .projects-filter ul li a{
+	color: #00bac9;
+}
+
+
+/* Border Color */
+.header-middle .header-widgets .widget,
+#primary-navigation .menu-extra,
+#primary-navigation .navbar-nav > li.home > a,
+#primary-navigation{
+	border-color: rgba(255, 255, 255, 0.15);
+}
+.nivo-controlNav a,
+.projects .projects-filter ul::after,
+.projects .project-buttons a{
+	border-color: #FFF;
+}
+.projects-wrap{
+	border-color: #ebebeb;
+}
+.projects .projects-filter ul li.active a{
+	border-color: #00bac9;
+}
+
+
+/* Font */
+body{
+	font-family: 'Karla', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Playfair Display', serif;
+}
+#primary-navigation{
+	font-family: 'Roboto', sans-serif;
+}

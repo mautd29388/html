@@ -1,0 +1,289 @@
+/* 
+==========================================================================
+
+Author: mTheme
+
+Content Tabel
++---------------+
+
+-General Classes
+-Elements
+-Common-Stuff
+
+-Featured color: #7e4093
+========================================================================== */
+
+/* Color */
+body,
+.section-gallery .buttons .button,
+#map-canvas  .map-infowindow-title small,
+.section-blog-v2 .entry-date,
+article.post .entry-tags a,
+.event-section-location .location-row:nth-child(2n) .location-content,
+.nivo-caption .button{
+	color: #646464;
+}
+.section-couple-v2 .section-couple-social a,
+.section-important-person-v2 .person-item .person-social a{
+	color: #d7d7d7;
+}
+.black-color-text,
+.navbar,
+.section-important-person-v2 .person-item .person-name,
+article.post .entry-tags,
+.featured-color-text a:hover{
+	color: #030320;
+}
+.section-blog .blog-meta,
+input, select, textarea,
+.section-getting-married .section-content,
+.our-love-story-readmore a,
+.wedding-events-readmores,
+article.post .entry-meta{
+	color: #8e8e8e;
+}
+.section-blog-v2 .entry-category{
+	color: #848484;
+}
+.white-color-text,
+.buttons .button.active,
+.buttons .button:focus,
+.section-blog .blog-main .category .button,
+.section-contacts .contact-form form .button,
+.section-couple-v2 .highlights,
+.comment-form .button,
+.event-section-location .location-content,
+.buttons .button:after,
+.section-gift-registration .gift-paypal .button-paypal:hover,
+.header-style-v2  .navbar-nav > li > a:after,
+.section-contacts .contact-form form .button:hover,
+.banner-v2 .nivo-caption aside{
+	color: #FFF;
+}
+.section-testimonial{
+	color: #f9f9f9;
+}
+article.post .social-shares a{
+	color: #CCC;
+}
+body:after,
+.loadpage-icon .fa,
+.featured-color-text,
+.section-blog .modal button.close:hover,
+.header-style-v1 .navbar-nav > li.active > a,
+.header-style-v1 .navbar-nav > li > a:hover,
+.header-style-v1 .navbar-nav > li > a:focus,
+.page-content .pagination .page-numbers:hover,
+.page-content .pagination .page-numbers.current,
+article.post .social-shares a:hover,
+.comment-title,
+.black-color-text > a:hover,
+a.black-color-text:hover,
+.section-important-person-v2 .person-item .person-social a:hover,
+.section-couple-v2 .section-couple-social a:hover,
+.our-love-story-readmore a:hover{
+	color: #7e4093;
+}
+
+/* Background */
+.header-top,
+.section-important-person .person-item .person-social a,
+.section-location .location-item,
+.section-couple .section-couple-social:after,
+.header-style-v1 #primary-navigation,
+.style-v1 .section,
+.section-contacts-v2 #contactform .contact-form-select::after,
+.section-contacts-v2 .contact-form-inner,
+.event-section-location .location-row:nth-child(2n) .location-content:before,
+.hvr-rectangle-in:before,
+.section-testimonial .flickity-page-dots .dot,
+.contact-maps .info-open-inner,
+.header-style-v2  .navbar-nav > li > a:before,
+.nivo-caption aside,
+body::before{
+	background-color: #fff;
+}
+.section-gallery,
+.section-contacts,
+.section-contacts .contact-form form .contact-form-select:after,
+.section-info-our-v2 aside,
+.style-v1 .section-our-love-story,
+.style-v1 .section-important-person-v2,
+.style-v1 .section-gift-registration,
+.section-blog-v2 article .entry,
+.contact-maps-info,
+.event-info:after,
+.event-info:before,
+.section-program,
+.section-program .program-item:nth-child(4n+1) .program-item-inner:after{
+	background-color: #faf9f9;
+}
+.navbar-toggle .icon-bar{
+	background-color: #030320;
+}
+.banner-v2 .nivo-caption aside .nivo-content{
+	background-color: #e8058a;
+}
+.section-couple:after,
+.section-important-person:after,
+.section-important-person .flickity-page-dots .dot,
+.section-program .program-item-inner,
+.section-location .location-title:after,
+.section-location .view-map a:after,
+.section-location .view-map a:before,
+.section-gift-registration .gift-paypal .button-paypal,
+.buttons .button.active,
+.buttons .button:focus,
+.section-blog .blog-main .category .button,
+.lg-progress-bar .lg-progress,
+.section-blog .flickity-page-dots .dot,
+.section-contacts .contact-info,
+.section-contacts .contact-form form .button,
+#map-canvas  .map-infowindow-title:after,
+.navbar-nav > li > a:after,
+.section-couple figcaption,
+.section-couple-v2 .highlights,
+.section-our-love-story .flickity-prev-next-button:after,
+.wedding-events-thumbnail .wedding-events-date,
+.section-important-person-v2 .flickity-prev-next-button:after,
+.section-important-person-v2 .gallery-cell.is-selected figure:after,
+.section-important-person-v2 .gallery-cell.is-selected figure:before,
+.section-gallery-v2 .gallery-photo a:after,
+.section-gallery-v2 .gallery-photo a:before,
+.section-gallery .gallery-photo:after,
+.comment-form .button,
+.event-info,
+.event-section-location .location-content:before,
+.hvr-rectangle-out:before,
+.buttons .button:after,
+.nivo-controlNav a,
+.navbar-toggle:hover .icon-bar,
+.header-style-v2  .navbar-nav > li > a:after,
+.section-contacts .contact-form form .button:before,
+.banner-v2 .nivo-caption aside > *{
+	background-color: #7e4093;
+}
+
+/* Border */
+.header-style-v2  .navbar-nav > li > a:before,
+.section-important-person .person-item .person-social a:after,
+.contact-info [class^=col-]:nth-child(2) .contact-info-content:after,
+.wedding-events-thumbnail figcaption:after,
+.wedding-events-thumbnail figcaption:before,
+.section-our-love-story figure figcaption:after,
+.section-our-love-story figure figcaption:before,
+.entry-thumbnail figcaption:after,
+.entry-thumbnail figcaption:before{
+	border-color: #fff;
+}
+.section-info-our:after,
+.one-page-v2 .section-couple:before,
+.section-contacts-v2 .contact-form-inner:after,
+.comment-body{
+	border-color: #ebebeb;
+}
+.header-style-v1 .logo,
+.header-style-v1 #primary-navigation,
+#logo:after{
+	border-color: #e9e9e9;
+}
+.section-important-person .slider-flickity:after,
+.section-location .location-item,
+.section-blog .blog-item,
+.copyright,
+.section-couple-v2 figcaption h3,
+.section-couple-v2 .couple-content,
+.section-couple-v2 .section-couple-social a,
+.section-getting-married.section-getting-married-v2 .countdown-item,
+.our-love-story-date:after,
+.our-love-story-date:before,
+.section-our-love-story .slider-flickity:after,
+.section-our-love-story figure:after,
+.section-wedding-events .wedding-events-inner > li,
+.section-important-person-v2 .person-item .person-social a,
+.page-content .pagination,
+article.post .social-shares span,
+article.post .entry-tags:after,
+#comments .comment-main h4.title:after,
+.event-section-location .location-row:nth-child(2n){
+	border-color: #d7d7d7;
+}
+.section-gallery .buttons .button,
+input, select, textarea,
+.section-contacts .contact-form form .contact-form-select,
+article.post .social-shares a{
+	border-color: #ccc;	
+}
+.nivo-caption .button{
+	border-color: #030320;
+}
+.section-getting-married .countdown-item,
+.line-title .line-title-inner,
+.line-title .line-title-inner:after,
+.line-title .line-title-inner:before,
+.buttons .button.active,
+.buttons .button:hover,
+.buttons .button:focus,
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover,
+input:focus, 
+select:focus, 
+textarea:focus,
+.header-style-v1 .navbar-nav > li > a:after,
+.section-info-our-v2 aside:after,
+.section-info-our-v2 aside:before,
+.style-v1 .section-title span:after,
+.section-wedding-events .wedding-events-date,/*
+.gallery-cell.is-selected .our-love-story-date:before,
+.gallery-cell.is-selected .our-love-story-date:after,*/
+.section-important-person-v2 .gallery-cell.is-selected figure,
+.section-gallery-v2 .gallery-photo a,
+.section-blog-v2 .entry-date,
+.header-style-v1 .navbar-nav > li > a:before,
+.header-style-v1 .navbar-nav > li:after,
+.header-style-v1 .navbar-nav > li:before,
+article.post .social-shares a:hover,
+blockquote,
+.bubba:after,
+.bubba:before,
+.style-v1 .section-title span:before,
+.section-important-person-v2 .person-item .person-social a:hover,
+.section-contacts .contact-form form .button:after,
+.section-couple-v2 .section-couple-social a:hover,
+.contact-maps .info-open-inner:after,
+.contact-maps .info-open-inner:before,
+.nivo-caption aside,
+.nivo-caption aside:before,
+.nivo-caption aside:after,
+.section-our-love-story .flickity-prev-next-button:after,
+.section-important-person-v2 .flickity-prev-next-button:after{
+	border-color: #7e4093;
+}
+
+
+/* Fill */
+.section-our-love-story .flickity-prev-next-button .arrow,
+.section-important-person-v2 .flickity-prev-next-button .arrow{
+	fill: #fff;
+}
+
+/* Box Shadow */
+.header-style-v2 .navbar-nav > li > a:before{
+		-webkit-box-shadow: 0 0 0 2px #7e4093 inset;
+    box-shadow: 0 0 0 2px #7e4093 inset;
+}
+
+/* Font */
+body{
+	font-family: 'Roboto Slab', serif;
+}
+{
+	font-family: 'Tangerine', cursive;
+}
+
+@media screen and (max-width: 1199px) {
+	.navbar .navbar-nav > li.active > a,
+	.navbar .navbar-nav > li a:hover,
+	.navbar .navbar-nav > li a:focus{
+		color: #7e4093;
+	}
+}

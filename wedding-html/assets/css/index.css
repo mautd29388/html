@@ -1,0 +1,69 @@
+/* ==========================================================================
+
+Author: mTheme
+Author URI: http://themeforest.net/user/mtheme_market
+Version: 1.0
+
+
+Content Tabel
++---------------+
+
+* body
+	+ Header / #header
+	+ Main Content / #main-content
+	+ Footer / #footer
+
+========================================================================== */
+
+html, body{
+	height: 100%;
+}
+.main-content{
+	background-color: #fafafa;
+	padding: 50px 0;
+}
+img{
+	max-width: 100%;
+}
+p{
+	margin: 0;
+}
+.header{
+    text-align: center;
+}
+#logo{
+	margin: 0;
+	padding: 50px 0;
+}
+article{
+	padding: 25px 0;
+}
+article a{
+	border-bottom: 3px solid #7e4093;
+	background-color: #fafafa;
+    display: inline-block;
+    height: 650px;
+    position: relative;
+    text-indent: -9999px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 100% auto;
+    background-image: url('../../images/screenshots/style-v1.jpg');
+    
+    -webkit-transition: all 3.5s;
+    transition: all 3.5s;
+    outline: none !important;
+}
+article.style-v2 a{
+	background-image: url('../../images/screenshots/style-v2.jpg');
+}
+article a:hover{
+	background-position: center 100%;
+}
+h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: #030320;
+	margin-bottom: 15px;
+}

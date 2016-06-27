@@ -1,0 +1,60 @@
+/* 
+==========================================================================
+
+Author: mTheme
+
+Content Tabel
++---------------+
+
+-General Classes
+-Elements
+-Common-Stuff
+
+-Featured color: #e5aa34
+========================================================================== */
+
+/* Color */
+body,
+#defaultCountdown .countdown-section{
+	color: #666;
+}
+.tabs-products .nav-tabs > li{
+	color: #000;
+}
+.featured-color-text,
+.tabs-products .nav-tabs > li.active,
+.tabs-products .nav-tabs > li:hover{
+	color: #e5aa34;
+}
+
+
+/* Background */
+#defaultCountdown .countdown-row{
+	background-color: #FFF;
+}
+.tabs-products .nav-tabs > li:after{
+	background-color: #e5aa34;
+}
+
+
+/* Border */
+
+
+
+/* Fill */
+
+
+/* Box Shadow */
+
+
+/* Font */
+body{
+  font-family: 'PT Serif', serif;
+}
+h1,h2,h3,h4,h5,h6,
+#defaultCountdown .countdown-section,
+#deals-block .deal-content p strong,
+.tabs-products .nav-tabs > li{
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 0.5px;
+}
