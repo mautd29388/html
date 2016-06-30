@@ -169,6 +169,48 @@ h1,h2,h3,h4,h5,h6{
 /*****************************
 ============ MAIN ============
 *****************************/
+/* Input & Button */
+input, select{
+	line-height: 46px;
+	height: 46px;
+	width: 100%;
+	border: 0;
+	padding: 0 20px;
+}
+select {
+	background-color: transparent;
+	appearance: none;
+		-moz-appearance: none;
+			-webkit-appearance: none;
+}
+.select-wrap{
+	display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.select-wrap:after{
+	//content:"\f107";
+	font-family:'FontAwesome';
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	line-height: 46px;
+	position: absolute;
+	font-size: 15px;
+}
+.buttons .button{
+	line-height: 46px;
+	height: 46px;
+	width: auto;
+	padding: 0 55px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 20px;	
+		-webkit-border-radius: 20px;	
+}
+
 
 .section{
 	padding: 90px 0;
@@ -289,6 +331,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 22px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	line-height: 26px;
 }
 .entry-title a{
 	color: inherit;
@@ -841,7 +884,72 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Contact box */
 .contact-box{
-	padding-left: 100px;	
+	/*padding-left: 100px;*/	
+}
+.contact-box .entry-subtitle{
+	text-transform: uppercase;
+}
+/* Contact form */
+.wpcf7-form p{
+	margin: 0;
+}
+.wpcf7-form .row{
+	margin-bottom: 25px;
+}
+.wpcf7-form label{
+    float: left;
+    font-weight: normal;
+    margin: 0;	
+    line-height: 46px;
+}
+.wpcf7-form .contact-form-dog input{
+	width: 145px;
+	float: right;
+}
+.wpcf7-form .contact-form-cat input{
+	float: right;
+	width: 185px;
+}
+
+/* Blog */
+.blog .post .entry{
+	padding: 0 5px;
+}
+.blog .post .entry-thumbnail{
+	margin-bottom: 	45px;
+	position: relative;
+}
+.blog .post .entry-thumbnail img{
+	border-radius: 10px;	
+		-webkit-border-radius: 10px;
+}
+.blog .post .entry-date{
+    bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+    height: 65px;
+    left: 20px;
+    line-height: 18px;
+    padding: 12px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 65px;
+    
+	border-radius: 50%;	
+		-webkit-border-radius: 50%;	
+		
+	transform: translate(0, 50%);
+		-webkit-transform: translate(0, 50%);
+}
+.blog .post .entry-date-number{
+	font-size: 20px;
+}
+.blog .post .entry-title{
+	margin-bottom: 15px;
+}
+.blog .post .entry-content{
+	margin-bottom: 30px;
 }
 
 

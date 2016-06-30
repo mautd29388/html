@@ -15,7 +15,8 @@ Content Tabel
 ========================================================================== */
 
 /* Color */
-body{
+body,
+.wpcf7-form{
 	color: #666666;
 }
 .header-top{
@@ -35,7 +36,10 @@ ul.navbar-nav a,
 .section-welcome .section-content figure .more,
 .section-products .section-header .section-title,
  .testimonial .entry-body,
- .section-custom{
+ .section-custom,
+ .buttons .button,
+ .wpcf7-form label,
+ .blog .entry-date{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
@@ -61,7 +65,7 @@ ul.navbar-nav li:hover > a,
 ul.navbar-nav li.active > a,
 .nutrition-philosophy-items  .nutrition-philosophy-item:hover .entry-title a,
 .testimonial .entry-skill,
-.buttons .button{
+.select-wrap:after{
 	color: #adc32b;
 }
 
@@ -82,7 +86,8 @@ ul.navbar-nav li.active > a,
 .testimonials-slider .flickity-page-dots .dot,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,
-.countdown:after{
+.countdown:after,
+.select-wrap{
 	background-color: #FFF;
 }
 .section-products{
@@ -98,7 +103,9 @@ ul.navbar-nav li.active > a,
 .testimonials-slider .flickity-page-dots .dot.is-selected,
 .why-choose-us ul .entry-thumbnail,
 .flickity-prev-next-button:hover,
-.section-custom:before{
+.section-custom:before,
+.buttons .button,
+.blog .entry-date{
 	background-color: #adc32b;
 }
 
@@ -140,7 +147,9 @@ body{
 .cats-list .cat-title,
 .hot-detail .entry-subtitle span,
 .countdown-items .countdown-item .f-color,
-.hot-detail .entry-thumbnail fieldset a{
+.hot-detail .entry-thumbnail fieldset a,
+.buttons .button,
+.blog .entry-date{
 	font-family: 'Dosis', sans-serif;
 }
 
