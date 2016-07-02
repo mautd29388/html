@@ -207,8 +207,8 @@ select {
 	padding: 0 55px;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-radius: 20px;	
-		-webkit-border-radius: 20px;	
+	border-radius: 25px;	
+		-webkit-border-radius: 25px;	
 }
 
 
@@ -952,88 +952,121 @@ select {
 	margin-bottom: 30px;
 }
 
+/* Pages */
+.page-header {
+	padding: 160px 0 140px;
+	margin: 0;
+	text-align: center;
+	border: 0;
+	text-transform: uppercase;
+	position: relative;
+}
+.page-title{
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+.breadcrumb{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+.breadcrumb * {
+	color: inherit;
+}
+
 
 /*****************************
 =========== FOOTER ===========
 *****************************/
 .footer-info{
-	padding: 60px 0;
+	padding: 90px 0 70px;
+	line-height: 34px;
 }
 .footer-info .widget-title{
-    font-size: 14px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    padding-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .footer-info ul{
+    margin-bottom: 0;
+    padding-left: 15px;	
+}
+.footer-info ul.widget-about{
 	list-style: none;
 	padding: 0;
-	margin: 0;
 }
-.footer-info ul > li{
-	padding-left: 0;
+.footer-info ul.widget-about li + li{
+	margin-top: 10px;
 }
-.footer-info ul > li:before{
-	display: none;
+.footer-info ul.widget-about .fa{
+	width: 30px;
 }
 .footer-info a{
 	color: inherit;
 }
-.footer-about img{
-	margin-bottom: 35px;
+.footer-button{
+	padding: 60px 0;
 }
-.footer-info .widget-twitter li{
-	padding-left: 30px;
-	position: relative;
+.footer-button .subscribe-lable{
+	float: left;
 }
-.footer-info .widget-twitter li > .fa{
-    left: 0;
-    line-height: 30px;
-    position: absolute;
-    top: 0;
+.footer-button .subscribe-lable .title{
+	font-size: 27px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
-.footer-info .widget-twitter li > a{
-	display: block;
+.footer-button .subscribe-lable .subtitle{
+	line-height: 18px;
+	margin-top: 5px;
 }
-.footer-info .container > .row {
-    display: inline-block;
-    margin-bottom: -30px;
+.footer-button .subscribe-content{
+	float: right;
 }
-.footer-info .widget{
-	margin-bottom: 30px;
+.footer-button .subscribe input{
+	height: 45px;
+	line-height: 45px;
+	background-color: transparent;
+	border: 2px solid;
+	width: 400px;
+	padding: 0 50px 0 20px;
+	background-image: url(../imgs/icon/mail.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	border-radius: 25px;	
+		-webkit-border-radius: 25px;	
+}
+.footer-social{
+	text-align: right;
+}
+.footer-social a{
+	color: inherit;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	text-align: center;
+	border: 2px solid;
+	display: inline-block;
+	border-radius: 50%;
+		-webkit-border-radius: 50%;
+}
+.footer-social a + a{
+	margin-left: 10px;
 }
 .copyright{
-	line-height: 80px;
-	text-align: center;
+	line-height: 30px;
+	padding: 35px 0;
+	font-size: 17px;
 }
-
-.footer-v2{
-	text-align: center;
+.copyright .navbar-nav > li + li{
+	padding-left: 30px;
 }
-.footer-v2 .footer-about ul li{
-	display: inline-block;
-	line-height: 8px;
-	width: auto;
-}
-.footer-v2 .footer-about ul li + li{
-	margin-left: 8px;
-	padding-left: 8px;
-	border-left: 1px solid;
-}
-.footer-v2 .copyright{
-	border-top: 1px solid;
-}
-.footer-v3 {
-	text-align: center;
-}
-.footer-v3 .menu li{
-	display: inline-block;
-}
-.footer-v3 .menu li + li{
-	margin-left: 20px;
-}
-.footer-v3 .menu li a{
+.copyright .navbar-nav > li > a{
+	padding: 0;
+	line-height: inherit;
+	font-size: 15px;
+	text-transform: uppercase;
 	color: inherit;
+	background: transparent;
 }

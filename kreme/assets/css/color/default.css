@@ -39,15 +39,23 @@ ul.navbar-nav a,
  .section-custom,
  .buttons .button,
  .wpcf7-form label,
- .blog .entry-date{
+ .blog .entry-date,
+ .footer-button,
+ .footer-info .widget-title,
+ .page-title{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
 	fill: #FFF;
 }
 .section-products .section-header .section-subtitle,
-.cat-detail{
+.cat-detail,
+.footer-button .subscribe-lable .subtitle,
+.breadcrumb{
 	color: #f4f4f4;
+}
+.footer-info{
+	color: #b4b4b4;
 }
 .testimonial .entry-content:after{
 	color: #716f68;
@@ -55,9 +63,7 @@ ul.navbar-nav a,
 .flickity-prev-next-button .arrow{
 	fill: #959595;
 }
-.hot-detail .entry-subtitle span{
-	color: #ee4e1a;
-}
+a,
 .f-color,
 .header a:hover,
 ul.navbar-nav a:hover,
@@ -65,8 +71,15 @@ ul.navbar-nav li:hover > a,
 ul.navbar-nav li.active > a,
 .nutrition-philosophy-items  .nutrition-philosophy-item:hover .entry-title a,
 .testimonial .entry-skill,
-.select-wrap:after{
+.select-wrap:after,
+.copyright .navbar-nav > li > a:hover,
+.footer-info a:hover,
+.breadcrumb a:hover{
 	color: #adc32b;
+}
+.hot-detail .entry-subtitle span,
+.copyright a:hover{
+	color: #ee4e1a;
 }
 
 
@@ -105,7 +118,8 @@ ul.navbar-nav li.active > a,
 .flickity-prev-next-button:hover,
 .section-custom:before,
 .buttons .button,
-.blog .entry-date{
+.blog .entry-date,
+.footer-button{
 	background-color: #adc32b;
 }
 
@@ -149,7 +163,10 @@ body{
 .countdown-items .countdown-item .f-color,
 .hot-detail .entry-thumbnail fieldset a,
 .buttons .button,
-.blog .entry-date{
+.blog .entry-date,
+.footer-button .subscribe-lable .title,
+.footer-info .widget-title,
+.page-title{
 	font-family: 'Dosis', sans-serif;
 }
 
