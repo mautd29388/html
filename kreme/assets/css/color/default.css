@@ -28,7 +28,8 @@ ul.navbar-nav a,
 .section-title,
 .cats-list .cat-title,
 .countdown-items,
-.hot-detail .entry-thumbnail fieldset a{
+.hot-detail .entry-thumbnail fieldset a,
+.shop-about ul li strong{
 	color: #000;
 }
 .header-top .phone .fa,
@@ -42,7 +43,8 @@ ul.navbar-nav a,
  .blog .entry-date,
  .footer-button,
  .footer-info .widget-title,
- .page-title{
+ .page-title,
+ .products .filter{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
@@ -74,7 +76,10 @@ ul.navbar-nav li.active > a,
 .select-wrap:after,
 .copyright .navbar-nav > li > a:hover,
 .footer-info a:hover,
-.breadcrumb a:hover{
+.breadcrumb a:hover,
+.shop-about  .entry-title,
+.products .filter .button.active,
+.products .filter .button:hover{
 	color: #adc32b;
 }
 .hot-detail .entry-subtitle span,
@@ -100,7 +105,9 @@ ul.navbar-nav li.active > a,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,
 .countdown:after,
-.select-wrap{
+.select-wrap,
+.products .filter .button.active,
+.products .filter .button:hover{
 	background-color: #FFF;
 }
 .section-products{
@@ -119,7 +126,8 @@ ul.navbar-nav li.active > a,
 .section-custom:before,
 .buttons .button,
 .blog .entry-date,
-.footer-button{
+.footer-button,
+.products .filter{
 	background-color: #adc32b;
 }
 
@@ -166,7 +174,9 @@ body{
 .blog .entry-date,
 .footer-button .subscribe-lable .title,
 .footer-info .widget-title,
-.page-title{
+.page-title,
+.shop-about ul li,
+.products .filter{
 	font-family: 'Dosis', sans-serif;
 }
 
