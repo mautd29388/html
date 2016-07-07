@@ -19,7 +19,10 @@ body,
 .wpcf7-form{
 	color: #666666;
 }
-.header-top{
+.header-top,
+.woocommerce .products .product .price del,
+.woocommerce .summary .price del,
+.blog-v2 .post .entry-meta{
 	color: #999999;
 }
 ul.navbar-nav a,
@@ -29,7 +32,12 @@ ul.navbar-nav a,
 .cats-list .cat-title,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,
-.shop-about ul li strong{
+.shop-about ul li strong,
+.products .loadmore a,
+.woocommerce .summary .tags,
+.woocommerce-tabs .reviews-title,
+#ingredients-nutrition address,
+.blog .buttons .readmore{
 	color: #000;
 }
 .header-top .phone .fa,
@@ -39,12 +47,19 @@ ul.navbar-nav a,
  .testimonial .entry-body,
  .section-custom,
  .buttons .button,
+ .woocommerce .buttons .button,
  .wpcf7-form label,
  .blog .entry-date,
  .footer-button,
  .footer-info .widget-title,
  .page-title,
- .products .filter{
+ .products .filter,
+ .products .product .add_to_cart_button:after,
+ .section-custom-1 .section-subtitle,
+ .woocommerce-tabs .wc-tabs li a,
+ .pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+.blog .buttons .readmore:hover{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
@@ -79,11 +94,19 @@ ul.navbar-nav li.active > a,
 .breadcrumb a:hover,
 .shop-about  .entry-title,
 .products .filter .button.active,
-.products .filter .button:hover{
+.products .filter .button:hover,
+ .products .product .add_to_cart_button:before,
+ .woocommerce .summary .product_title,
+ .woocommerce .star-rating span,
+ #tab-description ul li:before,
+ .ingredients-nutrition .nutrition ul li .percent,
+ .blog-v2 .post .entry-meta a:hover{
 	color: #adc32b;
 }
 .hot-detail .entry-subtitle span,
-.copyright a:hover{
+.copyright a:hover,
+.woocommerce .products .product .price,
+.woocommerce .summary .price{
 	color: #ee4e1a;
 }
 
@@ -101,16 +124,19 @@ ul.navbar-nav li.active > a,
 	background-color: #ebebeb;
 }
 .buttons .button,
+.woocommerce .buttons .button,
 .testimonials-slider .flickity-page-dots .dot,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,
 .countdown:after,
 .select-wrap,
 .products .filter .button.active,
-.products .filter .button:hover{
+.products .filter .button:hover,
+.section-custom-1 .section-content a{
 	background-color: #FFF;
 }
-.section-products{
+.section-products,
+.prodcut-summary{
 	background-color: #f9f9f9;
 }
 .bg-f-color,
@@ -125,9 +151,15 @@ ul.navbar-nav li.active > a,
 .flickity-prev-next-button:hover,
 .section-custom:before,
 .buttons .button,
+.woocommerce .buttons .button,
 .blog .entry-date,
 .footer-button,
-.products .filter{
+.products .filter,
+.products .product .add_to_cart_button:after,
+.woocommerce-tabs .woocommerce-tabs-nav,
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+.blog .buttons .readmore:hover{
 	background-color: #adc32b;
 }
 
@@ -142,12 +174,22 @@ ul.navbar-nav li.active > a,
 .countdown-items .countdown-item + .countdown-item{
 	border-color: #ebebeb;
 }
-.nutrition-philosophy-items .box-image:after{
+.nutrition-philosophy-items .box-image:after,
+.blog .buttons .readmore,
+.pagination .page-numbers{
 	border-color: #e1e1e1;
 }
 .welcome-info:after,
 .section-header:after,
-.why-choose-us ul li + li .entry-thumbnail:after{
+.why-choose-us ul li + li .entry-thumbnail:after,
+.products .product,
+.products .product:nth-child(3n+1):after,
+.woocommerce .summary .summary-header,
+.woocommerce .summary .quantity input,
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+.pagination,
+.blog .buttons .readmore:hover{
 	border-color: #adc32b;
 }
 
@@ -166,17 +208,23 @@ body{
 #primary-navigation,
 .section-welcome .section-content figure .more,
 .buttons .button,
+.woocommerce .buttons .button,
 .cats-list .cat-title,
 .hot-detail .entry-subtitle span,
 .countdown-items .countdown-item .f-color,
 .hot-detail .entry-thumbnail fieldset a,
-.buttons .button,
 .blog .entry-date,
 .footer-button .subscribe-lable .title,
 .footer-info .widget-title,
 .page-title,
 .shop-about ul li,
-.products .filter{
+.products .filter,
+.woocommerce .products .product .price,
+.woocommerce .summary .price,
+.products .loadmore a,
+.woocommerce .summary .tags,
+.woocommerce-tabs .wc-tabs li,
+.woocommerce-tabs .reviews-title{
 	font-family: 'Dosis', sans-serif;
 }
 
