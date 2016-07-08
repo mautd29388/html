@@ -22,7 +22,8 @@ body,
 .header-top,
 .woocommerce .products .product .price del,
 .woocommerce .summary .price del,
-.blog-v2 .post .entry-meta{
+.blog-v2 .post .entry-meta,
+.popular_posts .entry-meta{
 	color: #999999;
 }
 ul.navbar-nav a,
@@ -100,7 +101,10 @@ ul.navbar-nav li.active > a,
  .woocommerce .star-rating span,
  #tab-description ul li:before,
  .ingredients-nutrition .nutrition ul li .percent,
- .blog-v2 .post .entry-meta a:hover{
+ .blog-v2 .post .entry-meta a:hover,
+ .sidebar .widget .widget-title,
+ .sidebar .widget ul > li:before,
+ .sidebar .widget a:hover{
 	color: #adc32b;
 }
 .hot-detail .entry-subtitle span,
@@ -176,7 +180,9 @@ ul.navbar-nav li.active > a,
 }
 .nutrition-philosophy-items .box-image:after,
 .blog .buttons .readmore,
-.pagination .page-numbers{
+.pagination .page-numbers,
+.widget_search .search-field,
+.tagcloud a{
 	border-color: #e1e1e1;
 }
 .welcome-info:after,
@@ -224,7 +230,8 @@ body{
 .products .loadmore a,
 .woocommerce .summary .tags,
 .woocommerce-tabs .wc-tabs li,
-.woocommerce-tabs .reviews-title{
+.woocommerce-tabs .reviews-title,
+.sidebar .widget .widget-title{
 	font-family: 'Dosis', sans-serif;
 }
 
@@ -234,12 +241,15 @@ body{
 .why-choose-us ul li:before,
 .why-choose-us ul li:after,
 .countdown-items:before,
-.countdown-items:after{
+.countdown-items:after,
+.popular_posts .entry:after,
+.popular_posts .entry:before{
 	content: "";
 	display: table;
 }
 .welcome-info .welcome-info-item:after,
 .why-choose-us ul li:after,
-.countdown-items:after{
+.countdown-items:after,
+.popular_posts .entry:after{
 	clear: both;
 }

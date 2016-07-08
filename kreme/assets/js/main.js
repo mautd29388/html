@@ -75,6 +75,7 @@
 		}
 		
 		
+		
 		// Slider Slider
 		var $slider = $('#slider .slider-wrapper');
 		if ( $slider.length > 0 ) {
@@ -107,6 +108,20 @@
 			});
 		}
 		
+		/* Instagram Feed */
+		var $instafeed = $('#instafeed');
+		
+		if ( $instafeed.length > 0 ) {
+			
+			 var userFeed = new Instafeed({
+		        get: 'user',
+		        userId: '1781628684',
+		        accessToken: '1781628684.4b03285.12991eb23cc6413b85243368d8c8b2f8',
+		        template: '<div class="instagram_thumbnail"><a href="{{link}}"><img src="{{image}}" /></a></div>',
+		        limit: 9
+		    });
+		    userFeed.run();
+		}
 		
 		// Flickity slider
 		//Testimonial v1

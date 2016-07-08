@@ -1375,8 +1375,39 @@ select {
 .blog-v2 .post .entry-meta a{
 	color: inherit;
 }
+
+/* Sidebar */
 .sidebar {
 	padding-left: 30px;
+}
+.sidebar .widget + .widget{
+	margin-top: 40px;
+}
+.sidebar .widget .widget-title{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.sidebar .widget ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sidebar .widget ul > li{
+	line-height: 24px;
+	position: relative;
+	padding: 5px 0;
+}
+.sidebar .widget ul > li:before{
+	content: "\f1b0";
+	font-family:'FontAwesome';
+	margin-right: 10px;
+	font-size: 14px;
+}
+.sidebar .widget a{
+	color: inherit;
 }
 .widget_search .search-form{
 	position: relative;
@@ -1389,7 +1420,7 @@ select {
 	width: 100%;
 }
 .widget_search .search-field{
-	padding: 0 70px 0 30px;
+	padding: 0 60px 0 30px;
     border: 2px solid;
     font-weight: normal;
     height: 40px;
@@ -1398,14 +1429,59 @@ select {
 		-webkit-border-radius: 25px;
 }
 .widget_search .search-submit{
-	background-color: transparent;
+    background-color: transparent;
     border: 0 none;
     bottom: 0;
+    font-size: 16px;
+    padding: 0;
     position: absolute;
     right: 0;
     text-align: center;
     top: 0;
-    width: 70px;
+    width: 60px;
+}
+.sidebar .popular_posts ul li{
+	padding: 0;
+}
+.popular_posts li:before{
+	display: none;
+}
+.popular_posts .entry-thumbnail{
+	float: left;
+	width: 30%;
+	margin-right: 20px;
+}
+.popular_posts .entry-body{
+	overflow: hidden;
+	line-height: 20px;
+}
+.popular_posts .entry-title{
+	 font-size: 17px;
+	 margin: 0;
+	 line-height: inherit;
+}
+.popular_posts .entry-meta{
+	font-size: 15px;
+}
+.popular_posts li + li{
+	margin-top: 20px;
+}
+.tagcloud a{
+	line-height: 30px;
+	height: 34px;
+	padding: 0 20px;
+	border: 2px solid;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+	font-size: 15px;
+	border-radius: 25px;	
+		-webkit-border-radius: 25px;
+}
+.instagram .instagram_thumbnail{
+	float: left;
+	width: 33.33%;
+	padding: 0 3px 3px 0;
 }
 
 /*****************************
