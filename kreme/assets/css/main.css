@@ -443,10 +443,13 @@ select {
 	padding: 0;
 }
 .cat-detail .featured-products ul li{
-	padding-left: 25px;
-	background-image: url(../imgs/icon/icon.png);
 	background-position: left center;
 	background-repeat: no-repeat;
+}
+.cat-detail .featured-products ul li:before{
+	content: "\f1b0";
+	font-family:'FontAwesome';
+	margin-right: 10px;
 }
 .cat-detail .featured-products ul li + li{
 	margin-top: 10px;
@@ -988,14 +991,20 @@ select {
 	padding-right: 60px;
 }
 .shop-about ul{
-	margin-bottom: 0;
-	padding-left: 30px;
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding: 0;
 }
 .shop-about ul li{
 	font-size: 17px;
 	font-weight: bold;
-	list-style-image: url("../imgs/icon/icon-1.png");
 	line-height: 40px;
+}
+.shop-about ul li:before{
+	content: "\f1b0";
+	font-family:'FontAwesome';
+	margin-right: 10px;
+	font-size: 20px;
 }
 .shop-about ul li strong{
 	font-size: 24px;
@@ -1375,7 +1384,53 @@ select {
 .blog-v2 .post .entry-meta a{
 	color: inherit;
 }
-
+.single .entry-thumbnail{
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 8px;	
+		-webkit-border-radius: 8px;
+}
+.single .entry-title{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.single .entry-meta{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.single .entry-meta a{
+	color: inherit;
+}
+.entry-content h1, 
+.entry-content h2, 
+.entry-content h3, 
+.entry-content h4, 
+.entry-content h5, 
+.entry-content h6{
+	padding-top: 10px;
+}
+.text-transform-uppercase{
+	text-transform: uppercase;
+}
+.entry-content blockquote{
+	font-style: italic;
+	padding: 0;
+	border: 0;
+}
+.entry-content blockquote:before,
+.entry-content blockquote:after{
+	content: "\f10d";
+	font-family:'FontAwesome';
+	margin-right: 15px;
+	font-size: 22px;
+}
+.entry-content blockquote:after{
+	content: "\f10e";
+	margin-right: 0;
+	margin-left: 15px;
+	top: 5px;
+	position: relative;
+}
 /* Sidebar */
 .sidebar {
 	padding-left: 30px;
@@ -1483,7 +1538,119 @@ select {
 	width: 33.33%;
 	padding: 0 3px 3px 0;
 }
+.single .entry-footer{
+	line-height: 30px;
+	padding: 11px 0;
+	border-width: 1px 0;
+	border-style: dashed;
+	margin: 30px 0 40px;
+}
+.single .entry-footer label{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-bottom: 0;
+	float: left;
+}
+.single .entry-footer a{
+	color: inherit;
+}
+.single .entry-tags{
+	float: left;
+}
+.single .entry-social{
+	float: right;
+}
+.single .entry-social a{
+    border: 1px solid;
+    float: left;
+    font-size: 13px;
+    height: 30px;
+    margin-left: 5px;
+    text-align: center;
+    width: 30px;	
+    border-radius:  50%;
+		-webkit-border-radius:  50%;
+}
 
+/* Comment */
+.comments-area .comment-title{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.comments-area .comment-list{
+	margin-bottom: 50px;
+}
+.comments-area ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.comments-area ol ol{
+	padding-left: 100px;
+	margin-top: 25px;
+}
+.comments-area ol li + li{
+	margin-top: 25px;
+}
+.comment-list .comment-avatar{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	overflow: hidden;
+	border-radius: 50%;	
+		-webkit-border-radius: 50%;	
+}
+.comment-list .comment-main{
+	overflow: hidden;
+	padding: 30px;
+}
+.comment-list .author-name{
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+}
+.comment-list .author-name a{
+	color: inherit;
+}
+.comment-list .author-name small{
+	font-size: 14px;
+	margin-left: 30px;
+}
+.comment-list .comment-reply{
+	float: right;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.comment-list .comment-reply a{
+	color: inherit;
+}
+.comment-list .comment-content{
+	padding-top: 15px;
+	border-top: 1px dashed;
+}
+.comment-respond .comment-title{
+	margin-bottom: 25px;
+}
+form input, 
+form select, 
+form textarea{
+    border: 2px solid;
+    line-height: 20px;
+    padding: 10px 15px;
+    width: 100%;
+}
+form .buttons .button{
+    border: 0 none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;	
+}
 /*****************************
 =========== FOOTER ===========
 *****************************/
