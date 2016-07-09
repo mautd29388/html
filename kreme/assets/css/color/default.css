@@ -138,7 +138,8 @@ ul.navbar-nav li.active > a,
 .cats-list ul li.active .entry a,
 .footer-social a:hover,
 .products .product .add_to_cart_button:hover:after,
-.products .loadmore a:hover{
+.products .loadmore a:hover,
+.related-product .related-product-title{
 	color: #adc32b;
 }
 .hot-detail .entry-subtitle span,
@@ -172,7 +173,8 @@ ul.navbar-nav li.active > a,
 }
 .section-products,
 .prodcut-summary,
-.comment-list .comment-main{
+.comment-list .comment-main,
+.woocommerce-tabs{
 	background-color: #f9f9f9;
 }
 .bg-f-color,
@@ -212,7 +214,8 @@ ul.navbar-nav li.active > a,
 }
 .section-header:before,
 .section-clients-logo,
-.countdown-items .countdown-item + .countdown-item{
+.countdown-items .countdown-item + .countdown-item,
+.related-product .related-product-title:before{
 	border-color: #ebebeb;
 }
 .nutrition-philosophy-items .box-image:after,
@@ -229,7 +232,7 @@ form textarea{
 .welcome-info:after,
 .section-header:after,
 .why-choose-us ul li + li .entry-thumbnail:after,
-.products .product,
+.products .container > .row > .product,
 .products .product:nth-child(3n+1):after,
 .woocommerce .summary .summary-header,
 .woocommerce .summary .quantity input,
@@ -246,7 +249,8 @@ form textarea:focus,
 .buttons .button:hover, 
 .woocommerce .buttons .button:hover,
 .tagcloud a:hover,
-.products .product .add_to_cart_button:after{
+.products .product .add_to_cart_button:after,
+.related-product .related-product-title:after{
 	border-color: #adc32b;
 }
 
@@ -293,7 +297,8 @@ body,
 .single .entry-footer label,
 .single .comment-title,
 .comment-list .author-name,
-.comment-list .comment-reply{
+.comment-list .comment-reply,
+.related-product .related-product-title{
 	font-family: 'Dosis', sans-serif;
 }
 
