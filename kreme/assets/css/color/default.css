@@ -73,7 +73,10 @@ ul.navbar-nav a,
  .pagination .page-numbers.current,
 .pagination .page-numbers:hover,
 .blog .buttons .readmore:hover,
-.single .entry-footer .entry-social a:hover{
+.single .entry-footer .entry-social a:hover,
+.contact-info,
+.cat-detail .entry .buttons .button:hover,
+ .sidebar .widget_tag_cloud .tagcloud a:hover{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
@@ -126,13 +129,23 @@ ul.navbar-nav li.active > a,
  .single .entry-footer a:hover,
  .single .comment-title,
  .comment-list .author-name a:hover,
- .comment-list .comment-reply a:hover{
+ .comment-list .comment-reply a:hover,
+ .cat-detail .entry .buttons .button,
+ .entry-title a:hover,
+ .buttons .button:hover, 
+.woocommerce .buttons .button:hover,
+.cats-list ul li:hover .entry a,
+.cats-list ul li.active .entry a,
+.footer-social a:hover,
+.products .product .add_to_cart_button:hover:after,
+.products .loadmore a:hover{
 	color: #adc32b;
 }
 .hot-detail .entry-subtitle span,
 .copyright a:hover,
 .woocommerce .products .product .price,
-.woocommerce .summary .price{
+.woocommerce .summary .price,
+.cat-detail .featured-products ul a:hover{
 	color: #ee4e1a;
 }
 
@@ -142,15 +155,9 @@ ul.navbar-nav li.active > a,
 .header-top ul.menu > li + li:after{
 	background-color: #d3d3d3;
 }
-.section-testimonials:before,
-.section-custom .section-inner:after{
-	background-color: #000;
-}
 .flickity-prev-next-button{
 	background-color: #ebebeb;
 }
-.buttons .button,
-.woocommerce .buttons .button,
 .testimonials-slider .flickity-page-dots .dot,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,
@@ -158,7 +165,9 @@ ul.navbar-nav li.active > a,
 .select-wrap,
 .products .filter .button.active,
 .products .filter .button:hover,
-.section-custom-1 .section-content a{
+.section-custom-1 .section-content a,
+.cat-detail .entry .buttons .button,
+.footer-social a:hover{
 	background-color: #FFF;
 }
 .section-products,
@@ -187,14 +196,18 @@ ul.navbar-nav li.active > a,
 .pagination .page-numbers.current,
 .pagination .page-numbers:hover,
 .blog .buttons .readmore:hover,
-.single .entry-social a:hover{
+.single .entry-social a:hover,
+.contact-info,
+.tagcloud a:hover{
 	background-color: #adc32b;
 }
 
 
 /* Border */
 .section-products .section-header:after,
-.section-products .section-header:before{
+.section-products .section-header:before,
+.cat-detail .entry .buttons .button:hover,
+.footer-social a{
 	border-color: #fff;
 }
 .section-header:before,
@@ -229,7 +242,11 @@ form textarea{
 .comment-list .comment-content,
 form input:focus, 
 form select:focus, 
-form textarea:focus{
+form textarea:focus,
+.buttons .button:hover, 
+.woocommerce .buttons .button:hover,
+.tagcloud a:hover,
+.products .product .add_to_cart_button:after{
 	border-color: #adc32b;
 }
 
@@ -292,7 +309,9 @@ body,
 .single .entry-footer:after,
 .single .entry-footer:before,
 .comment-body:after,
-.comment-body:before{
+.comment-body:before,
+p:after,
+p:before{
 	content: "";
 	display: table;
 }
@@ -301,6 +320,7 @@ body,
 .countdown-items:after,
 .popular_posts .entry:after,
 .single .entry-footer:after,
-.comment-body:after{
+.comment-body:after,
+p:after{
 	clear: both;
 }
