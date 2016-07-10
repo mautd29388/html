@@ -81,28 +81,28 @@
 		if ( $slider.length > 0 ) {
 			$slider.imagesLoaded(function() {
 				$slider.find('.nivoSlider').nivoSlider({
-					pauseTime: 10000,
-					directionNav: true,
+					pauseTime: 5000,
+					directionNav: false,
 				    controlNav: false,
 				    randomStart: false, 
 				    beforeChange: function(){
-				    	$slider.find('.nivo-caption').find('.animated').each(function() {
-				    		$(this).addClass('fadeOut');
-				    	});
+				    	//$slider.find('.nivo-caption').find('.animated').each(function() {
+				    		//$(this).addClass('fadeOut');
+				    	//});
 				    },    
 				    afterChange: function(){
-				    	$slider.find('.nivo-caption').find('.animated').each(function() {
-				    		$(this).addClass($(this).attr('data-animate'));
-				    	});
+				    	//$slider.find('.nivo-caption').find('.animated').each(function() {
+				    		//$(this).addClass($(this).attr('data-animate'));
+				    	//});
 				    },        
 				    slideshowEnd: function(){
 				    },     
 				    lastSlide: function(){
 				    },         
 				    afterLoad: function(){
-				    	$slider.find('.nivo-caption').find('.animated').each(function() {
-				    		$(this).addClass($(this).attr('data-animate'));
-				    	});
+				    	//$slider.find('.nivo-caption').find('.animated').each(function() {
+				    		//$(this).addClass($(this).attr('data-animate'));
+				    	//});
 				    },         
 				});
 			});
