@@ -761,7 +761,7 @@ select {
 	z-index: -1;	
 }
 .section-custom .section-inner:before{
-    background-image: url("../../images/bg-4.jpg");
+    background-image: url("http://placehold.it/1920x1200/333");
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
