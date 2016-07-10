@@ -4,39 +4,6 @@
 	$( window ).load(function() {
 		
 		
-		
-		// Filter Img & replace to placehold.it
-		$('body').imagesLoaded(function() {
-			
-			var $url =  window.location.href;
-			
-			$.ajax({
-				url: $url,
-				cache: false,
-			}).done(function( html ) {
-				
-				var $html = html;
-				
-				$('body').find('img').each(function() {
-					var $this 	= $(this),
-						$width 	= $this.width(),
-						$height	= $this.height(),
-						$src	= "http://placehold.it/" + $width + "x" + $height + "/333";
-					
-					$html = $html.replace($this.attr("src"), $src); 
-					
-				});
-				console.log($html);
-				
-				//var image = new Image();
-			    //image.src = $('.page-header').css('background-image').replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
-			    //console.log(image.src);
-			    //var width = image.width,
-			     	//height = image.height; 
-			});
-		}); 
-		
-		
 		$('body').find('.section').each( function() {
 			var $section = $(this);
 			new Waypoint({
