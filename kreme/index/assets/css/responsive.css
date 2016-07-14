@@ -1,0 +1,57 @@
+/* 
+==========================================================================
+
+Author: mTheme
+
+Content Tabel
++---------------+
+
+-General Classes
+-Elements
+-Common-Stuff
+
+========================================================================== */
+
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1900px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	article .image{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	article .image{
+		height: 300px;
+	}
+}
+@media screen and (max-width: 991px) {
+	article .image{
+		height: 250px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.post:nth-child(n) {
+	    border-left-width: 1px;
+	}
+	.post:nth-child(2n+1) {
+	    border-left-width: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.post{
+		width: 100%;
+	}
+	.post:nth-child(n) {
+	    border-left-width: 0;
+	}
+}

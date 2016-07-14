@@ -1,0 +1,53 @@
+/* 
+==========================================================================
+
+Author: mTheme
+
+Content Tabel
++---------------+
+
+- General Classes
+- Elements
+- Common-Stuff
+
+- Featured color: #adc32b
+- Secondary Color: 
+========================================================================== */
+
+/* Color */
+body{
+	color: #666666;
+}
+article a{
+	color: #000;
+}
+#footer{
+	color: #959595;
+}
+a,
+.header .page-title,
+article a:hover{
+	color: #adc32b;
+}
+a:hover{
+	color: #ee4e1a;
+}
+
+/* Background */
+
+
+/* Border */
+.post,
+.header .page-title,
+#footer{
+	border-color:  #e1e1e1;
+}
+
+/* Font */
+body{
+	font-family: 'Kameron', serif;
+}
+.header .page-title,
+article a{
+	font-family: 'Dosis', sans-serif;
+}
