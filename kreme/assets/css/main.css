@@ -360,6 +360,7 @@ select {
 	margin-left: 50px;
 	position: relative;
 	z-index: 0;
+	margin-top: -100px;
 }
 .welcome-info:after{
     border-left: 2px dashed;
@@ -441,6 +442,7 @@ select {
 }
 .cat-detail .entry-thumbnail{
 	margin-bottom: -190px;
+	text-align: center;
 }
 .cat-detail .entry-thumbnail img{
 	max-width: 420px;
@@ -630,8 +632,7 @@ select {
 	padding-bottom: 100px;
 }
 .testimonials-slider .testimonial{
-	width: 50%;
-	padding: 0 30px;
+	padding: 0 15px;
 }
 .testimonial .entry-thumbnail{
 	float: left;
@@ -677,6 +678,9 @@ select {
 }
 
 /* why-choose-us */
+.why-choose-us .box-thubnail{
+	text-align: center;
+}
 .why-choose-us ul{
 	margin: 0;
 	padding: 50px 50px 0 0;
@@ -701,7 +705,7 @@ select {
 	content: "";
 	border-left: 2px dashed;
 	position: absolute;
-	top: -70px;
+	top: -150px;
 	bottom: 0;
 	right: 50%;
 	z-index: -1;
@@ -777,7 +781,8 @@ select {
 	margin: 0;
 }
 .section-custom .container > .row > [class^=col-]{
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 /* Hot detail */
 .hot-detail{
@@ -797,10 +802,7 @@ select {
 	font-weight: bold;
 }
 .hot-detail .entry-thumbnail{
-    left: -345px;
-    position: absolute;
-    top: -60px;
-    z-index: 99;
+	display: none;
 }
 .hot-detail .entry-thumbnail fieldset a{
     bottom: 130px;
@@ -828,8 +830,8 @@ select {
 	top: 0;
 	bottom: 0;
 	right: 90%;
-	left: -150px;
 	z-index: -1;
+	left: -1000px;
 }
 .countdown-items{
 	padding: 20px 0;
@@ -855,13 +857,9 @@ select {
 	margin-bottom: 8px;
 }
 .hot-detail .entry-content {
-	padding-left: 115px;
 	line-height: 32px;
 }
 /* Contact box */
-.contact-box{
-	/*padding-left: 100px;*/	
-}
 .contact-box .entry-subtitle{
 	text-transform: uppercase;
 }
@@ -1025,12 +1023,14 @@ select {
 	border: 0;
 	clear: both;
 }
-.products .product:nth-child(3n+1):after{
+.products .product:after{
 	content: "";
 	position: absolute;
 	bottom: -1px;
 	left: -2000px;
 	right: -2000px;
+}
+.products .product:nth-child(3n+1):after{
 	border-bottom: 2px dashed;
 }
 .products .product .entry{
@@ -1231,6 +1231,10 @@ select {
 }
 .woocommerce .woocommerce-product-rating .woocommerce-review-link{
 	margin-left: 15px;
+}
+.woocommerce-tabs .section-radius:after{
+	box-shadow: 0 100px 0 100px #f9f9f9;
+		-webkit-box-shadow: 0 100px 0 100px #f9f9f9;
 }
 .woocommerce-tabs .woocommerce-tabs-nav{
 	line-height: 25px;

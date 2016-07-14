@@ -76,7 +76,9 @@ ul.navbar-nav a,
 .single .entry-footer .entry-social a:hover,
 .contact-info,
 .cat-detail .entry .buttons .button:hover,
- .sidebar .widget_tag_cloud .tagcloud a:hover{
+ .sidebar .widget_tag_cloud .tagcloud a:hover,
+ .cats-list .cat.is-selected .cat-title,
+ .cats-list .cat .cat-title:hover{
 	color: #FFF;
 }
  .flickity-prev-next-button:hover .arrow{
@@ -202,7 +204,8 @@ ul.navbar-nav li.active > a,
 .blog .buttons .readmore:hover,
 .single .entry-social a:hover,
 .contact-info,
-.tagcloud a:hover{
+.tagcloud a:hover,
+.navbar-toggle .icon-bar{
 	background-color: #adc32b;
 }
 
@@ -228,14 +231,16 @@ ul.navbar-nav li.active > a,
 .single .entry-social a,
 form input, 
 form select, 
-form textarea{
+form textarea,
+.navbar-collapse,
+.contact-info .contact-info-item + .contact-info-item{
 	border-color: #e1e1e1;
 }
 .welcome-info:after,
 .section-header:after,
 .why-choose-us ul li + li .entry-thumbnail:after,
 .products .container > .row > .product,
-.products .product:nth-child(3n+1):after,
+.products .product:nth-child(n):after,
 .woocommerce .summary .summary-header,
 .woocommerce .summary .quantity input,
 .pagination .page-numbers.current,
@@ -319,7 +324,11 @@ body,
 .comment-body:after,
 .comment-body:before,
 p:after,
-p:before{
+p:before,
+.entry:after,
+.entry:before,
+.footer .subscribe:after,
+.footer .subscribe:before{
 	content: "";
 	display: table;
 }
@@ -329,6 +338,8 @@ p:before{
 .popular_posts .entry:after,
 .single .entry-footer:after,
 .comment-body:after,
-p:after{
+p:after,
+.entry:after,
+.footer .subscribe:after{
 	clear: both;
 }

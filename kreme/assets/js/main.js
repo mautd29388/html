@@ -26,13 +26,32 @@
 					$html = $html.replace($this.attr("src"), $src); 
 					
 				});
+				//console.log($html);
+				
+				var image = new Image();
+				$( "*" ).each(function(e) {
+					var $this = $(this),
+						$bg = $this.css('background-image'),
+						$style = $this.attr('style');
+					
+					if ( $bg != 'none' && typeof $style !== "undefined" && $style != 'none' && $style.length > 0 ) {
+						image.src = $bg.replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
+						
+						//console.log(image.src);
+						var $width = image.width,
+							$height = image.height,
+							$src = "http://placehold.it/" + $width + "x" + $height + "/333",
+							$url = "url(" + $src + ")",
+							$__style = $style.replace(/url\((['"])?(.*?)\1\)/gi, $url).split(',')[0];
+							
+						$html = $html.replace($style, $__style); 
+					
+					}
+					
+				});
+				
 				console.log($html);
 				
-				//var image = new Image();
-			    //image.src = $('.page-header').css('background-image').replace(/url\((['"])?(.*?)\1\)/gi, '$2').split(',')[0];
-			    //console.log(image.src);
-			    //var width = image.width,
-			     	//height = image.height; 
 			});
 		}); 
 		
@@ -146,11 +165,51 @@
 		if ( $('.clients-logo-slider .slider-flickity').length > 0 ) {
 			$('.clients-logo-slider .slider-flickity').imagesLoaded(function() {
 				$('.clients-logo-slider .slider-flickity').flickity({
-					wrapAround: true,
+					wrapAround: false,
 					contain: true,
 					freeScroll: false,
 					imagesLoaded: true,
 					prevNextButtons: true,
+					pageDots: false,
+					cellAlign: 'left',
+					arrowShape: { 
+						  x0: 25,
+						  x1: 50, y1: 25,
+						  x2: 60, y2: 20,
+						  x3: 40
+						}
+				});
+			});
+		}
+		//Clients Logo
+		if ( $('.blog-slider .slider-flickity').length > 0 ) {
+			$('.blog-slider .slider-flickity').imagesLoaded(function() {
+				$('.blog-slider .slider-flickity').flickity({
+					wrapAround: false,
+					contain: true,
+					freeScroll: false,
+					imagesLoaded: true,
+					prevNextButtons: false,
+					pageDots: false,
+					cellAlign: 'left',
+					arrowShape: { 
+						  x0: 25,
+						  x1: 50, y1: 25,
+						  x2: 60, y2: 20,
+						  x3: 40
+						}
+				});
+			});
+		}
+		//cats-list
+		if ( $('.cats-list-slider .slider-flickity').length > 0 ) {
+			$('.cats-list-slider .slider-flickity').imagesLoaded(function() {
+				$('.cats-list-slider .slider-flickity').flickity({
+					wrapAround: true,
+					contain: true,
+					freeScroll: false,
+					imagesLoaded: true,
+					prevNextButtons: false,
 					pageDots: false,
 					cellAlign: 'center',
 					arrowShape: { 
