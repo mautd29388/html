@@ -162,6 +162,10 @@ ul.navbar-nav li.active > a,
 .flickity-prev-next-button{
 	background-color: #ebebeb;
 }
+.entry-thumbnail > a:after,
+.instagram .instagram_thumbnail a:after{
+	background-color: #000;
+}
 .testimonials-slider .flickity-page-dots .dot,
 .countdown-items,
 .hot-detail .entry-thumbnail fieldset a,

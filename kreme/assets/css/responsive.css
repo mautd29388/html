@@ -272,9 +272,11 @@ Content Tabel
 	}
 	.products .product:nth-child(n){
 		clear: none;
+		border-left-width: 2px;
 	}
 	.products .product:nth-child(2n+1){
 		clear: both;
+		border-left-width: 0px;
 	}
 	.products .product:nth-child(n):after{
 		border-bottom: 0;
@@ -286,6 +288,7 @@ Content Tabel
 @media screen and (max-width: 480px) {
 	.products .product{
 		width: 100%;
+		border: 0 !important;
 	}
 	.products .product:nth-child(n):after{
 		border-bottom: 2px dashed;

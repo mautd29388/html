@@ -890,6 +890,40 @@ select {
 	margin-bottom: 	45px;
 	position: relative;
 }
+.entry-thumbnail > a,
+.instagram .instagram_thumbnail a{
+	display: block;
+	position: relative;
+}
+.entry-thumbnail > a:after,
+.instagram .instagram_thumbnail a:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	border-radius: 10px;	
+		-webkit-border-radius: 10px;
+	transform: scale(0.15);
+		-webkit-transform:  scale(0.15);
+		
+	transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+}
+.entry-thumbnail > a:hover:after,
+.instagram .instagram_thumbnail a:hover:after{
+	opacity: 0.55;
+	transform: scale(1);
+		-webkit-transform:  scale(1);	
+}
+.popular_posts .entry-thumbnail > a:after,
+.instagram .instagram_thumbnail a:after,
+.product .entry-thumbnail > a:after{
+	border-radius: 0px;	
+		-webkit-border-radius: 0px;
+}
 .blog .post .entry-thumbnail img{
 	border-radius: 10px;	
 		-webkit-border-radius: 10px;
@@ -1002,7 +1036,7 @@ select {
     color: inherit;
     display: block;
     height: 40px;
-    line-height: 40px;
+    line-height: 36px;
     padding: 0 30px;
     border-radius: 25px;
 		-webkit-border-radius: 25px;
@@ -1015,12 +1049,14 @@ select {
 	margin-right: -60px;
 }
 .products .container > .row > .product{
-	border-left: 2px dashed;
 	position: relative;
 	padding: 50px 60px;
 }
+.products .product{
+	border-left: 2px dashed;
+}
 .products .product:nth-child(3n+1){
-	border: 0;
+	border-left-width: 0;
 	clear: both;
 }
 .products .product:after{
@@ -1566,6 +1602,8 @@ select {
 	float: left;
 	width: 33.33%;
 	padding: 0 3px 3px 0;
+	transition: all 0.25s;
+		-webkit-transition: all 0.25s;
 }
 .single .entry-footer{
 	line-height: 30px;
